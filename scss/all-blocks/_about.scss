@@ -156,4 +156,15 @@
     font-size: 28px;
     line-height: 32px;
   }
+
+  .about__div {
+    padding-left: 60px;
+  }
+
+  .about-img {
+    transform: translate(-10px, 83px);
+    z-index: -2;
+    max-width: 112px;
+    width: 100%;
+  }
 }
