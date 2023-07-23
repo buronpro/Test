@@ -1,8 +1,6 @@
 .header {
     z-index: 1;
     width: 100%;
-    margin-top: 20px;
-    
 }
 
 .header .container {
@@ -88,6 +86,7 @@
 .navber__ul {
     display: flex;
 }
+
 .nav__blok {
     display: block;
     background: linear-gradient(180deg, rgba(222, 218, 210, 0.505) 0%, #e0d9d9 55.94%);
@@ -98,9 +97,9 @@
 }
 
 @media only screen and (max-width:901px) {
-   .navber__ul {
-    margin-left: -50px;
-   }
+    .navber__ul {
+        margin-left: -50px;
+    }
 }
 
 
@@ -132,5 +131,5 @@
         display: none;
     }
 
-   
+
 }
