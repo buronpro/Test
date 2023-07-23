@@ -1,0 +1,128 @@
+.redmi {
+    margin-top: 100px;
+    background-color: #1DB5BE;
+}
+
+.redmi__flex {
+    display: flex;
+}
+
+
+
+.redmi__info {
+    max-width: 592px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+
+.redmi__h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #111827;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.redmi__text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #111827;
+}
+
+
+.redmi__ul {
+    margin-top: 80px;
+}
+
+.redmi__li {
+    list-style: none;
+}
+
+.redmi__span {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.redmi__market:nth-child(2) {
+    padding-left: 10px;
+}
+
+.redmi__img--tel {
+    width: 100%;
+    max-width: 592px;
+    display: block;
+}
+
+.redmi__img--mobil {
+    display: none;
+}
+
+@media only screen and (max-width: 950px) {
+    .redmi__flex {
+        flex-direction: column;
+    }
+
+    .redmi__info {
+        margin-left: 20px;
+        max-width: fit-content;
+    }
+
+    .redmi__telefon--rasm {
+        margin-top: 80px;
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .redmi__h4 {
+        font-size: 36px;
+        line-height: 33px;
+    }
+
+    .redmi__text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .redmi__telefon--rasm {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .redmi__img--tel {
+        display: none;
+    }
+
+    .redmi__market--icon {
+        max-width: 115px;
+        width: 100%;
+    }
+
+    .redmi__img--mobil {
+        display: block;
+        margin-left: -20px;
+        max-width: 320px;
+        width: 100%;
+
+    }
+
+    .redmi__h4 {
+        font-size: 28px;
+    }
+
+    .redmi__text {
+        font-size: 16px;
+    }
+}

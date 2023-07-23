@@ -1,0 +1,159 @@
+.about {
+    background-color: #D5FAFC;
+}
+
+
+.about-img {
+    transform: translate(-10px, 110px);
+    z-index: -2;
+    max-width: 142px;
+    width: 100%;
+}
+
+.about__div {
+    max-width: 488px;
+    width: 100%;
+    padding-left: 87px;
+}
+
+.about__h3 {
+    z-index: 1;
+    width: 100%;
+    max-width: 448px;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+
+.about__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #111827;
+}
+
+.about__li {
+    background-color: #fff;
+    max-width: 384px;
+    width: 100%;
+    border-radius: 8px;
+    gap: 32px;
+    list-style: none;
+}
+
+
+.about__felxxx {
+    display: flex;
+    margin-left: 120px;
+}
+
+.about__img {
+    padding: 20px 30px;
+    margin-bottom: 8px;
+}
+
+.about__texttt {
+    padding: 0px 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 32px;
+    background-image: url("../../img/Quote\ mark\ \(1\).png");
+    background-repeat: no-repeat;
+    transform: translate(15px, 10px);
+}
+
+.about__strong {
+    padding: 0px 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0;
+
+}
+
+.about__text--p {
+    padding: 0px 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+}
+
+.about__listtt {
+    transform: translate(80px, -100px);
+    max-width: 488px;
+    width: 100%;
+}
+
+.about__listtext {
+    max-width: 384px;
+    width: 100%;
+    transform: translate(80px, -60px);
+}
+
+@media only screen and (max-width: 1273px) {
+
+    .about__felxxx {
+        flex-direction: column;
+    }
+
+    .about__listtt {
+        transform: translate(0);
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .about__listtext {
+        transform: translate(0);
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+    .about__li {
+        max-width: 700px;
+        width: 100%;
+    }
+
+  .about__ul {
+    margin-left: -40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .about__h3 {
+    width: 100%;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+    .about__felxxx {
+        margin-left: 20px;
+    }
+
+    .about__li {
+        max-width: 355px;
+        width: 100%;
+    }
+
+    
+  .about__h3 {
+    width: 100%;
+    font-size: 28px;
+    line-height: 32px;
+  }
+}

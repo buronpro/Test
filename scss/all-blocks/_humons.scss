@@ -1,0 +1,135 @@
+.humons {
+    margin-top: 150px;
+}
+
+
+
+.humons__h2 {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.humons__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.humons__ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.humons__li {
+    width: 100%;
+    max-width: 384px;
+    list-style: none;
+}
+
+.humons__img-icon {
+    margin-left: 167px;
+}
+
+.humoms__h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+
+.humons__p--text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1010px) {
+    .humons__ul {
+        flex-direction: column;
+    }
+
+    .humons__h2 {
+        font-size: 36px;
+    }
+
+    .humons__p--text {
+        font-size: 18px;
+    }
+
+
+    .humons__div--flex {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    .humons__img-icon {
+        margin-left: 130px;
+    }
+
+    .humoms__h3 {
+        font-size: 24px;
+    }
+
+    .humons__p--text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .humons__img-icon {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 573px) {
+    .humons__div--flex {
+        flex-direction: column;
+    }
+
+    .humons__img-icon {
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .humons__img-icon {
+        margin-left: 90px;
+    }
+
+    .humons__h2 {
+        font-size: 36px;
+    }
+
+    .humons__text {
+        font-size: 18px;
+    }
+
+    .humoms__h3 {
+        font-size: 24px;
+    }
+
+    .humons__p--text {
+        font-size: 16px;
+    }
+}

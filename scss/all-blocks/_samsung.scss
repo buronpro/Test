@@ -1,0 +1,101 @@
+.samsung {
+    margin-top: 120px;
+}
+
+.samsung__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.samsung__info {
+    margin-top: -10px;
+    max-width: 448px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.samsung__h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    max-width: 488px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.samsung__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 488px;
+    width: 100%;
+}
+
+.samsung__list {
+    margin-top: 50px;
+    background-image: url("../../img/Vector\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    max-width: 696px;
+}
+
+.samsung__li {
+    list-style: none;
+}
+
+.samsung__img {
+    width: 100%;
+    max-width: 88px;
+}
+
+@media only screen and (max-width: 861px) {
+    .samsung__h3 {
+        font-size: 32px;
+    }
+
+    .samsung__text {
+        font-size: 25px;
+    }
+
+    .samsung__img {
+        width: 100%;
+        max-width: 68px;
+    }
+
+    .samsung__list {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .samsung__flex {
+        flex-direction: column;
+    }
+
+    .samsung__list {
+        background-position: 58%;
+        //    text-align: center;
+        margin-left: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .samsung__h3 {
+        font-size: 30px;
+    }
+
+    .samsung__text {
+        font-size: 16px;
+    }
+
+    .samsung__img {
+        width: 100%;
+        max-width: 38px;
+    }
+}

@@ -1,0 +1,162 @@
+.footer {
+    background-color: #000000;
+}
+
+.footer__info {
+    padding: 80px 0px;
+}
+
+.footer__img {
+    margin-bottom: 10px;
+}
+
+.footer__flex {
+    display: flex;
+}
+
+.footer__ul {
+    display: flex;
+    margin-left: -70px;
+    max-width: fit-content;
+    width: 100%;
+}
+
+.footer__li {
+    padding-left: 25px;
+}
+
+.footer__link {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    transition: all 0.7s ease;
+    width: 100%;
+}
+
+.footer__link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer__span {
+    color: #fff;
+    margin-top: 30px;
+    margin-left: -10px;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 100%;
+}
+
+.footer__market {
+    margin-left: 560px;
+    margin-top: 80px;
+}
+
+.footer__market--span {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+    margin-left: 42px;
+    margin-bottom: 20px;
+}
+
+.footer__market--li:nth-child(2) {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1220px) {
+
+    .footer__market {
+        margin-left: 500px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+
+    .footer__market {
+        margin-left: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 1035px) {
+
+    .footer__market {
+        margin-left: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 930px) {
+
+    .footer__market {
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width: 835px) {
+
+    .footer__market {
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 772px) {
+
+    .footer__market {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 772px) {
+
+    .footer__market {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 679px) {
+
+    .footer__flex {
+        flex-direction: column;
+    }
+
+    .footer__info {
+        margin-left: 40px;
+    }
+
+    .footer__market {
+        margin-top: -48px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .footer__li {
+        padding-left: 18px;
+    }
+
+    .footer__info {
+        margin-left: 20px;
+    }
+
+    .footer__market {
+        margin-left: -30px;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+
+    .footer__ul {
+        flex-direction: column;
+    }
+}

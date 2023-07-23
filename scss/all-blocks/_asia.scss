@@ -1,0 +1,40 @@
+.asia {
+    margin-top: 80px;
+}
+
+.asia_reklamalar {
+    display: flex;
+    margin-left: 60px;
+}
+
+.asia__info {
+    padding-left: 75px;
+}
+
+@media only screen and (max-width: 929px) {
+    .asia_reklamalar {
+        margin-left: 20px;
+    }
+
+    .asia__info {
+        padding-left: 55px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+  .asia_reklamalar {
+    margin-left: 10px;
+  }
+
+  .asia__info{
+    padding-left: 40px;
+  }
+
+  .asia__info:nth-child(4) {
+    display: inline-block;
+  }
+
+
+}
