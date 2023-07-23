@@ -1,6 +1,7 @@
 .header {
     z-index: 1;
     width: 100%;
+    margin-top: 20px;
     
 }
 
@@ -14,9 +15,9 @@
     display: flex;
 }
 
-.header__logo {
-    margin-top: 10px;
-}
+// .header__logo {
+//     margin-top: 10px;
+// }
 
 .nav {
     display: flex;
@@ -84,6 +85,9 @@
     display: block;
 }
 
+.navber__ul {
+    display: flex;
+}
 .nav__blok {
     display: block;
     background: linear-gradient(180deg, rgba(222, 218, 210, 0.505) 0%, #e0d9d9 55.94%);
@@ -93,7 +97,11 @@
     border-radius: 8px;
 }
 
-
+@media only screen and (max-width:901px) {
+   .navber__ul {
+    margin-left: -50px;
+   }
+}
 
 
 @media only screen and (max-width:757px) {

@@ -1,40 +1,46 @@
 .asia {
-    margin-top: 80px;
+  margin-top: 160px;
 }
 
-.asia_reklamalar {
-    display: flex;
-    margin-left: 60px;
+
+.asia__img-desctop {
+  width: 100%;
+  max-width: 1216px;
+  display: block;
+  cursor: pointer;
+
 }
 
-.asia__info {
-    padding-left: 75px;
+.asia__img-mobil {
+  display: none;
 }
 
-@media only screen and (max-width: 929px) {
-    .asia_reklamalar {
-        margin-left: 20px;
-    }
-
-    .asia__info {
-        padding-left: 55px;
-    }
-    
+.asia__img-planchet {
+  display: none;
+  cursor: pointer;
 }
 
 
 @media only screen and (max-width: 768px) {
-  .asia_reklamalar {
-    margin-left: 10px;
-  }
+    .asia__img-desctop {
+      display: none;
+    }
 
-  .asia__info{
-    padding-left: 40px;
-  }
-
-  .asia__info:nth-child(4) {
-    display: inline-block;
-  }
-
-
+    .asia__img-planchet {
+      display: block;
+    }
 }
+
+
+@media only screen and (max-width: 556px) {
+
+
+  .asia__img-planchet {
+    display: none;
+  }
+
+  .asia__img-mobil {
+    display: block;
+  }
+}
+

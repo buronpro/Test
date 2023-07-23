@@ -2,6 +2,7 @@
     margin-top: -40px;
     width: 100%;
     z-index: -1;
+  
 }
 
 .hero .container {
@@ -117,7 +118,8 @@
    .hero .container {
     background-image: url("../../img/Background\ \(2\).jpg");
     width: 100%;
-    // max-width: 748px;
+    max-width: 860px;
+    background-repeat: no-repeat;
    }
 }
 
